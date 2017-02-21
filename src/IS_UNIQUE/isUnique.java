@@ -1,5 +1,5 @@
 package Arrays_And_Strings;
-
+// To find if a string has all unique characters!!
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -29,9 +29,9 @@ while (true)
 }
 
 public static void checkUnique(String str)
-{
+{	
 	
-	if(str.length() > 128)
+	if(str.length() > 128) 	//ASCII 128 character set check.
 	{
 		System.out.println("not unique");
 		return;
